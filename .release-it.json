@@ -61,7 +61,6 @@
     }
   },
   "hooks": {
-    "before:init": ["pnpm run lint"],
-    "after:bump": "pnpm run prepack"
+    "before:init": ["pnpm run lint"]
   }
 }
