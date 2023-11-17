@@ -31,7 +31,7 @@ stefanobartoletti.push({
   // General rules
   rules: {
     'curly': ['error', 'all'],
-    'func-call-spacing': ['error', 'never'],
+    'style/function-call-spacing': ['error', 'never'],
   },
 })
 
