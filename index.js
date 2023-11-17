@@ -4,7 +4,9 @@ const stefanobartoletti = antfu({
   stylistic: true,
   vue: true,
   typescript: true,
-}, {
+})
+
+stefanobartoletti.push({
   // Vue rules
   files: ['**/*.vue'],
   rules: {
@@ -12,7 +14,7 @@ const stefanobartoletti = antfu({
       singleline: { max: 10 },
       multiline: { max: 1 },
     }],
-    'vue/singleline-html-element-content-newline': 0,
+    'vue/singleline-html-element-content-newline': 'off',
     'vue/html-self-closing': ['warn', {
       html: {
         void: 'always',
@@ -23,10 +25,13 @@ const stefanobartoletti = antfu({
       order: ['template', 'script', 'style'],
     }],
   },
-}, {
+})
+
+stefanobartoletti.push({
   // General rules
   rules: {
-    curly: ['error', 'all'],
+    'curly': ['error', 'all'],
+    'func-call-spacing': ['error', 'never'],
   },
 })
 
