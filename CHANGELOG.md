@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.3](https://github.com/stefanobartoletti/eslint-config/compare/0.3.2...0.3.3) (2023-11-20)
+
+
+### 🩹 Bug Fixes
+
+* fix nuxt config ([0b35a90](https://github.com/stefanobartoletti/eslint-config/commit/0b35a903f0aeba660ca089c1fad56183203a2dab))
+
+
+### 📖 Documentation
+
+* add readme ([2d82d21](https://github.com/stefanobartoletti/eslint-config/commit/2d82d218613a446d774a52492199385025341547))
+
 ## [0.3.2](https://github.com/stefanobartoletti/eslint-config/compare/0.3.1...0.3.2) (2023-11-20)
 
 
