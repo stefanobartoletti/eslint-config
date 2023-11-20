@@ -1,5 +1,3 @@
-import stefanobartoletti from './index.js'
+import { stefanobartoletti } from './index.js'
 
-export default [
-  ...stefanobartoletti,
-]
+export default stefanobartoletti()

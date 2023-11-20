@@ -1,40 +1,19 @@
 import antfu from '@antfu/eslint-config'
+import antfuOptions from './rules/antfuOptions.js'
+import sbConfigBase from './rules/sbConfigBase.js'
+import sbConfigNuxt from './rules/sbConfigNuxt.js'
 
-const stefanobartoletti = antfu({
-  stylistic: true,
-  vue: true,
-  typescript: true,
-})
+const stefanobartoletti = (...args) => {
+  return antfu(
+    antfuOptions, // This must be the first argument
+    sbConfigBase,
+    ...args,
+  )
+}
 
-stefanobartoletti.push({
-  // Vue rules
-  files: ['**/*.vue'],
-  rules: {
-    'vue/max-attributes-per-line': ['error', {
-      singleline: { max: 10 },
-      multiline: { max: 1 },
-    }],
-    'vue/singleline-html-element-content-newline': 'off',
-    'vue/html-self-closing': ['warn', {
-      html: {
-        void: 'always',
-        normal: 'never',
-      },
-    }],
-    'vue/block-order': ['error', {
-      order: ['template', 'script', 'style'],
-    }],
-  },
-})
+const nuxt = sbConfigNuxt
 
-stefanobartoletti.push({
-  // General rules
-  rules: {
-    'curly': ['error', 'all'],
-    'style/function-call-spacing': ['error', 'never'],
-    'node/prefer-global/process': 'off',
-    'antfu/top-level-function': 'off',
-  },
-})
-
-export default stefanobartoletti
+export {
+  stefanobartoletti,
+  nuxt,
+}
