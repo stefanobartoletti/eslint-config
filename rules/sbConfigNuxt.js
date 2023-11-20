@@ -2,30 +2,27 @@
 
 const sbConfigNuxt = [
 
-  // Components Rules
+  // Nuxt can use auto-imports, eslint should not throw errors for undefined variables.
   {
-    files: ['**/components/**/*.{js,ts,jsx,tsx,vue}'],
+    files: ['*.{js,ts,jsx,tsx,vue}'],
     rules: {
-    // Components should have multiple word names.
-    // Pages, layouts, app.* and error.* not included as they can have single word names
-      'vue/multi-word-component-names': 'warn',
-    },
-  },
-
-  // Composables Rules
-  {
-    files: ['**/composables/**/*.{js,ts,jsx,tsx,vue}'],
-    rules: {
-    // Composables can use auto-imports, eslint should not throw an error for undefined
       'no-undef': 'off',
     },
   },
 
-  // Pages and Layouts Rules
+  // Components should have multiple word names.
+  // Pages, layouts, app.* and error.* not included as they can have single word names.
+  {
+    files: ['**/components/**/*.{js,ts,jsx,tsx,vue}'],
+    rules: {
+      'vue/multi-word-component-names': 'warn',
+    },
+  },
+
+  // Pages and layouts are required to have a single root element if transitions are enabled.
   {
     files: ['**/{pages,layouts}/**/*.{js,ts,jsx,tsx,vue}'],
     rules: {
-    // Pages and layouts are required to have a single root element if transitions are enabled.
       'vue/no-multiple-template-root': 'error',
     },
   },
