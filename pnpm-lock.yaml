@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^8.54.0
     version: 8.54.0
   eslint-flat-config-viewer:
-    specifier: ^0.1.1
-    version: 0.1.1
+    specifier: ^0.1.3
+    version: 0.1.3
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -1770,8 +1770,8 @@ packages:
       parse-gitignore: 2.0.0
     dev: false
 
-  /eslint-flat-config-viewer@0.1.1:
-    resolution: {integrity: sha512-ajbg1Kiqi7h/h757/F0So07w8sLLaUVau9KN+x0aeLuRuJmI2lCQnZBl9U6f7tkV3VQgNgmARZ96XvDI1nhovA==}
+  /eslint-flat-config-viewer@0.1.3:
+    resolution: {integrity: sha512-Fk2FFMoHj6cDBFS4GRUk8ZCOV0yc3rS0tSy5Mb+Uq7ICxkItzgBsgyCIolKd95zeYKXAqzMibjIMjf7NW3sytA==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
