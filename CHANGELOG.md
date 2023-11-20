@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/stefanobartoletti/eslint-config/compare/0.2.0...0.3.0) (2023-11-20)
+
+
+### 🚀 Features
+
+* add tailwind plugin & config ([14bfb79](https://github.com/stefanobartoletti/eslint-config/commit/14bfb79adaf51d8aa40c232d3439f3a46e3dc4c3))
+
 ## [0.2.0](https://github.com/stefanobartoletti/eslint-config/compare/0.1.2...0.2.0) (2023-11-20)
 
 
