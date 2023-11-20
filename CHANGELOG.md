@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/stefanobartoletti/eslint-config/compare/0.3.0...0.3.1) (2023-11-20)
+
+
+### 🩹 Bug Fixes
+
+* disable vue & typescript explicit enable ([2b728f1](https://github.com/stefanobartoletti/eslint-config/commit/2b728f1d6521d95732a430f241990869eb9a9012))
+
 ## [0.3.0](https://github.com/stefanobartoletti/eslint-config/compare/0.2.0...0.3.0) (2023-11-20)
 
 
