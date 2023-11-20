@@ -4,7 +4,7 @@ const sbConfigNuxt = [
 
   // Nuxt can use auto-imports, eslint should not throw errors for undefined variables.
   {
-    files: ['*.{js,ts,jsx,tsx,vue}'],
+    files: ['**/*.{js,ts,jsx,tsx,vue}'],
     rules: {
       'no-undef': 'off',
     },
