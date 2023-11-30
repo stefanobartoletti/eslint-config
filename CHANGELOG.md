@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.0.0](https://github.com/stefanobartoletti/eslint-config/compare/0.3.3...1.0.0) (2023-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for @antfu/eslint-config options
+
+### 🚀 Features
+
+* add support for @antfu/eslint-config options ([5853a65](https://github.com/stefanobartoletti/eslint-config/commit/5853a65b3f742c949240e2d37a60a07748241c2f))
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.1.2 ([8777265](https://github.com/stefanobartoletti/eslint-config/commit/87772650e198197c63a572ac68451904fb50e119))
+
+
+### 🏡 Chore
+
+* **deps:** update commitlint monorepo to ^18.4.3 ([c111bc9](https://github.com/stefanobartoletti/eslint-config/commit/c111bc958e65f39fc12c01616e37e7deb61fa16d))
+* **deps:** update pnpm to v8.11.0 ([5e7a0c1](https://github.com/stefanobartoletti/eslint-config/commit/5e7a0c1d12cded55952586a4d6661d75c01c9e58))
+* fix eslint peer dependency version ([12281bf](https://github.com/stefanobartoletti/eslint-config/commit/12281bf4e0ee78dbcda5e4de22a4c351154b802b))
+* fix eslint peer dependency version ([dfd1d3a](https://github.com/stefanobartoletti/eslint-config/commit/dfd1d3ab8be113415779586b6b50d694a50e14c7))
+
 ## [0.3.3](https://github.com/stefanobartoletti/eslint-config/compare/0.3.2...0.3.3) (2023-11-20)
 
 
