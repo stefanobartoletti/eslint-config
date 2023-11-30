@@ -27,7 +27,7 @@ Some of the main features, inherited directly from `@antfu/eslint-config`:
 - Vue and TypeScript support
 - Linting for Json, Yaml, Markdown
 - Uses the easily extensible [ESLint Flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new)
-- Includes [ESLint Stylistic](https://github.com/eslint-stylistic/eslint-stylistic) to format code and enforce a preconfigured style (*Prettier not required and not supported*)
+- Includes [ESLint Stylistic](https://github.com/eslint-stylistic/eslint-stylistic) to format code and enforce a preconfigured style (*Prettier not required and not officially supported*)
 - ... and many more (check its docs for the full list)
 
 My own customizations and preferences:
@@ -50,9 +50,15 @@ pnpm i -D eslint @stefanobartoletti/eslint-config
 
 ### Configuration
 
-- Basic use (autodetects Vue and Typescript, uses ESlint Stylistic)
-
 With [`"type": "module"`](https://nodejs.org/api/packages.html#type) in `package.json` (recommended):
+
+#### Basic use
+
+Using the default config without arguments uses the following `@antfu/eslint-config` options as defaults:
+
+- autodetects Vue
+- autodetects Typescript
+- enables ESlint Stylistic
 
 ```js
 // eslint.config.js
@@ -61,26 +67,41 @@ import { stefanobartoletti } from '@stefanobartoletti/eslint-config'
 export default stefanobartoletti()
 ```
 
-- Passing custom rules and overrides:
+#### Setting options and using custom rules
+
+It is possible to add custom rules with the following configuration. 
+
+- The first item must contain options to be passed to `@antfu/eslint-config` (read more on [its docs](https://github.com/antfu/eslint-config) for possible options). **It must always be present even if left empty.**
+- From the second item going on, you can add as many custom ESlint flat config objects as you need.
 
 ```js
 // eslint.config.js
 import { stefanobartoletti } from '@stefanobartoletti/eslint-config'
 
 export default stefanobartoletti(
+  // @antfu/eslint-config options, must be the first argument
   {
-    // ESlint Flat config rule object
+    stylistic: false,
+  },
+  // Addtionals flat configs start from here
+  {
+    rules: {
+      curly: 'off',
+    },
   },
 )
 ```
 
-- Using optional Nuxt or Tailwind configs (they can be used together or by themseles, and together with further custom rules):
+##### Using optional Nuxt or Tailwind configs
+
+This package also provides optional configuration for Nuxt and Tailwind. They can be used together or by themsevles, and together with further custom rules.
 
 ```js
 // eslint.config.js
 import { nuxt, stefanobartoletti, tailwind } from '@stefanobartoletti/eslint-config'
 
 export default stefanobartoletti(
+  {}, // @antfu/eslint-config options, must always be present as first item even if empty
   nuxt,
   taiwind,
   {
