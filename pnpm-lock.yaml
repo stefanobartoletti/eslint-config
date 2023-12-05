@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@antfu/eslint-config':
-    specifier: ^2.2.2
+    specifier: ^2.3.0
     version: 2.3.0(eslint@8.55.0)(typescript@5.2.2)
   eslint-plugin-tailwindcss:
     specifier: ^3.13.0
