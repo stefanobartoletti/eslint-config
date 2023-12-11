@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/stefanobartoletti/eslint-config/compare/1.2.0...1.2.1) (2023-12-11)
+
+
+### 🩹 Bug Fixes
+
+* set `eslint-plugin-format` as primary dependency ([cf137d8](https://github.com/stefanobartoletti/eslint-config/commit/cf137d836e6afee7ab67078264d66dd0d7400802))
+
 ## [1.2.0](https://github.com/stefanobartoletti/eslint-config/compare/1.1.0...1.2.0) (2023-12-11)
 
 
