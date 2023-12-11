@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/stefanobartoletti/eslint-config/compare/1.1.0...1.2.0) (2023-12-11)
+
+
+### 🚀 Features
+
+* add css & html support ([e531097](https://github.com/stefanobartoletti/eslint-config/commit/e531097ddaf957c479c2ff09bdacb1d42174eea4))
+
 ## [1.1.0](https://github.com/stefanobartoletti/eslint-config/compare/1.0.0...1.1.0) (2023-12-11)
 
 
