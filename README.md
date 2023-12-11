@@ -69,7 +69,7 @@ export default stefanobartoletti()
 
 #### Setting options and using custom rules
 
-It is possible to add custom rules with the following configuration. 
+It is possible to add custom rules with the following configuration.
 
 - The first item must contain options to be passed to `@antfu/eslint-config` (read more on [its docs](https://github.com/antfu/eslint-config) for possible options). **It must always be present even if left empty.**
 - From the second item going on, you can add as many custom ESlint flat config objects as you need.
@@ -116,10 +116,10 @@ export default stefanobartoletti(
 > If you want to contribute you can start by reading the [Contributing guidelines](https://github.com/stefanobartoletti/eslint-config/blob/master/.github/CONTRIBUTING.md).
 
 > [!IMPORTANT]
-> I am more than happy to accept suggestions for improvement and contributions, and to try to fix issues that may come on other people specific environments, to allow this package to be used on other people's projects too.  
-> 
+> I am more than happy to accept suggestions for improvement and contributions, and to try to fix issues that may come on other people specific environments, to allow this package to be used on other people's projects too.
+>
 > Anyway, keep in mind that this is my personal configuration, whose main goal is to provide a shareable base to be used across my own projects, based on my preferences and supporting tools and frameworks that I personally use on a daily basis.
->    
+>
 > I don't have the resources or the desire to support frameworks, tools or features that I don't personally use. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's excellent, you can use this repository as a base for your own costom take on it.
 
 ## 📝 License
