@@ -1,7 +1,19 @@
 const sbConfigBase = [
 
+  // General Rules
+  {
+    name: 'stefanobartoletti:general',
+    rules: {
+      'curly': ['error', 'all'],
+      'style/function-call-spacing': ['error', 'never'],
+      'node/prefer-global/process': 'off',
+      'antfu/top-level-function': 'off',
+    },
+  },
+
   // Vue Rules
   {
+    name: 'stefanobartoletti:vue',
     files: ['**/*.vue'],
     rules: {
       'vue/max-attributes-per-line': ['error', {
@@ -18,16 +30,6 @@ const sbConfigBase = [
       'vue/block-order': ['error', {
         order: ['template', 'script', 'style'],
       }],
-    },
-  },
-
-  // General Rules
-  {
-    rules: {
-      'curly': ['error', 'all'],
-      'style/function-call-spacing': ['error', 'never'],
-      'node/prefer-global/process': 'off',
-      'antfu/top-level-function': 'off',
     },
   },
 ]
