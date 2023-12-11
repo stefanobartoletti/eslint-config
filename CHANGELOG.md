@@ -1,5 +1,34 @@
 # Changelog
 
+## [1.1.0](https://github.com/stefanobartoletti/eslint-config/compare/1.0.0...1.1.0) (2023-12-11)
+
+
+### 🚀 Features
+
+* add names to config blocks ([e03c1cd](https://github.com/stefanobartoletti/eslint-config/commit/e03c1cd9a5eee57026aab53c14618b0445414f7e))
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.2.2 ([28f1852](https://github.com/stefanobartoletti/eslint-config/commit/28f185250d0836929d2aa977a3bf9945dbfd3833))
+* **deps:** update dependency @antfu/eslint-config to ^2.3.0 ([0bb2c3b](https://github.com/stefanobartoletti/eslint-config/commit/0bb2c3b54674f23c82daab41927e2964c4b1a2db))
+* **deps:** update dependency @antfu/eslint-config to ^2.3.3 ([34ac118](https://github.com/stefanobartoletti/eslint-config/commit/34ac118235ed1dbc7856d37fe3933ece55291d0f))
+* **deps:** update dependency @antfu/eslint-config to ^2.3.4 ([ef23ef9](https://github.com/stefanobartoletti/eslint-config/commit/ef23ef95f22939fb5029c3f1912f80cf3bd50a9c))
+* **deps:** update dependency @antfu/eslint-config to ^2.4.4 ([ea57f5b](https://github.com/stefanobartoletti/eslint-config/commit/ea57f5b4b852fc947aa6c1aa92e6e26148ea52d3))
+* **deps:** update dependency @antfu/eslint-config to ^2.4.5 ([fac9755](https://github.com/stefanobartoletti/eslint-config/commit/fac9755409da5a028e8bcd8c1bc3ea579b96428a))
+
+
+### 🏡 Chore
+
+* **deps:** update dependency eslint to ^8.55.0 ([e329d72](https://github.com/stefanobartoletti/eslint-config/commit/e329d72622f146548f6135bf409b16b91be9966a))
+* **deps:** update dependency release-it to ^17.0.1 ([40cf8fc](https://github.com/stefanobartoletti/eslint-config/commit/40cf8fc59cb3e3c40dee0e5bfa2141a14647a4d7))
+* **deps:** update pnpm to v8.12.0 ([8e31f19](https://github.com/stefanobartoletti/eslint-config/commit/8e31f19ab5a7c09fceea65ba1eee1aa2a4915304))
+
+
+### 🎨 Code Style
+
+* lint md files ([73b4dd6](https://github.com/stefanobartoletti/eslint-config/commit/73b4dd612955493620a61e910bf4c5a60c436ac1))
+
 ## [1.0.0](https://github.com/stefanobartoletti/eslint-config/compare/0.3.3...1.0.0) (2023-11-30)
 
 
