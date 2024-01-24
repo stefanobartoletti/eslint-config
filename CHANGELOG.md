@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.2.2](https://github.com/stefanobartoletti/eslint-config/compare/1.2.1...1.2.2) (2024-01-24)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.6.3 ([3451fdd](https://github.com/stefanobartoletti/eslint-config/commit/3451fdd6fa5f0832a57f34f064a7958376625659))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.14.0 ([8cfa461](https://github.com/stefanobartoletti/eslint-config/commit/8cfa4612cebec2c721fef85a05d487073416ca89))
+
+
+### 🏡 Chore
+
+* **deps:** update commitlint monorepo to ^18.4.4 ([c532f28](https://github.com/stefanobartoletti/eslint-config/commit/c532f28ea38251964342a8b3a48c7e5be737e2f7))
+* **deps:** update commitlint monorepo to ^18.5.0 ([3729457](https://github.com/stefanobartoletti/eslint-config/commit/372945729479c835786430b09d90f5a0a0735aa8))
+* **deps:** update dependency eslint to ^8.56.0 ([3a77a81](https://github.com/stefanobartoletti/eslint-config/commit/3a77a81539c0d1023c41aa727f61b7d03dd90ae2))
+* **deps:** update dependency eslint-flat-config-viewer to ^0.1.11 ([06176e3](https://github.com/stefanobartoletti/eslint-config/commit/06176e332cd88b5351ee97fb44ffbb8469684044))
+* **deps:** update dependency release-it to ^17.0.3 ([373e821](https://github.com/stefanobartoletti/eslint-config/commit/373e821c9fdda56a3a34c096c25ddc21cf3c4f0a))
+* **deps:** update pnpm to v8.14.1 ([a5d16b9](https://github.com/stefanobartoletti/eslint-config/commit/a5d16b91ea7054997acd8d008b4d7b89448083d6))
+* **deps:** update pnpm to v8.14.2 ([0436016](https://github.com/stefanobartoletti/eslint-config/commit/0436016a6807cd1c8bdc3f5b3bdf9acf9d3cc9ec))
+* **deps:** update pnpm to v8.14.3 ([22270e1](https://github.com/stefanobartoletti/eslint-config/commit/22270e19896d3c1771296cab6c5289f8aa981c51))
+
 ## [1.2.1](https://github.com/stefanobartoletti/eslint-config/compare/1.2.0...1.2.1) (2023-12-11)
 
 
