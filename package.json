@@ -23,7 +23,7 @@
     "preview": "eslint-flat-config-viewer",
     "release": "release-it",
     "commitlint": "commitlint --edit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "peerDependencies": {
     "eslint": "8.x"
