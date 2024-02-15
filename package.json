@@ -40,6 +40,6 @@
     "eslint": "^8.56.0",
     "eslint-flat-config-viewer": "^0.1.11",
     "husky": "^9.0.10",
-    "release-it": "^17.0.3"
+    "release-it": "^17.0.5"
   }
 }
