@@ -103,7 +103,7 @@ import { nuxt, stefanobartoletti, tailwind } from '@stefanobartoletti/eslint-con
 export default stefanobartoletti(
   {}, // @antfu/eslint-config options, must always be present as first item even if empty
   nuxt,
-  taiwind,
+  tailwind,
   {
     // ESlint Flat config rule object
   },
