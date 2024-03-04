@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.2.3](https://github.com/stefanobartoletti/eslint-config/compare/1.2.2...1.2.3) (2024-03-04)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.6.4 ([d7d22e6](https://github.com/stefanobartoletti/eslint-config/commit/d7d22e673af91f2dca401095bed3c9682c00c73b))
+* **deps:** update dependency @antfu/eslint-config to ^2.7.0 ([be05bc2](https://github.com/stefanobartoletti/eslint-config/commit/be05bc2c7104a2aacbbf1809d19164292161b145))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.14.1 ([881174a](https://github.com/stefanobartoletti/eslint-config/commit/881174a05f0f62ef7b1906c792163923dc9257e8))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.14.2 ([9f7b653](https://github.com/stefanobartoletti/eslint-config/commit/9f7b653edcd829fb9a5afe2392cefb411e9ab3c1))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.14.3 ([4d04bc5](https://github.com/stefanobartoletti/eslint-config/commit/4d04bc55cfcda80d93cb14293a695a0c6bb0b3e2))
+
+
+### 📖 Documentation
+
+* fix typo in README.md ([be267b5](https://github.com/stefanobartoletti/eslint-config/commit/be267b544617f5ca1f6dbc6a054b2cc3d2db61a1))
+
 ## [1.2.2](https://github.com/stefanobartoletti/eslint-config/compare/1.2.1...1.2.2) (2024-01-24)
 
 
