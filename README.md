@@ -110,6 +110,21 @@ export default stefanobartoletti(
 )
 ```
 
+## VS Code Support (Important)
+
+Install the VS Code ESLint extension.
+
+Add at least the following settings to your `.vscode/settings.json` file, otherwise it will not work:
+
+```jsonc
+{
+  // Enable the ESLint flat config support
+  "eslint.experimental.useFlatConfig": true
+}
+```
+
+For more settings, check out the VS Code support section in [antfu/eslint-config](https://github.com/antfu/eslint-config#vs-code-support-auto-fix)
+
 ## 🤝 Contributing
 
 > [!NOTE]
