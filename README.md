@@ -1,6 +1,6 @@
-<div align="center">
+<img src=".github/eslint-config-cover.png" />
 
-# @stefanobartoletti/eslint-config
+<div align="center">
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -110,11 +110,13 @@ export default stefanobartoletti(
 )
 ```
 
-## VS Code Support (Important)
+## 📝 VS Code Support
 
-Install the VS Code ESLint extension.
+If you use VS Code, you should manually enable support for ESLint flat config.
 
-Add at least the following settings to your `.vscode/settings.json` file, otherwise it will not work:
+Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+
+Add the following settings to your `.vscode/settings.json`:
 
 ```jsonc
 {
@@ -123,7 +125,7 @@ Add at least the following settings to your `.vscode/settings.json` file, otherw
 }
 ```
 
-For more settings, check out the VS Code support section in [antfu/eslint-config](https://github.com/antfu/eslint-config#vs-code-support-auto-fix)
+For more settings, check the "VS Code support" section in [antfu/eslint-config](https://github.com/antfu/eslint-config#vs-code-support-auto-fix)
 
 ## 🤝 Contributing
 
@@ -135,7 +137,7 @@ For more settings, check out the VS Code support section in [antfu/eslint-config
 >
 > Anyway, keep in mind that this is my personal configuration, whose main goal is to provide a shareable base to be used across my own projects, based on my preferences and supporting tools and frameworks that I personally use on a daily basis.
 >
-> I don't have the resources or the desire to support frameworks, tools or features that I don't personally use. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's excellent, you can use this repository as a base for your own costom take on it.
+> I don't have the resources or the desire to support frameworks, tools or features that I don't personally use. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's, you can use this repository as a base for your own custom take on it.
 
 ## 📝 License
 
