@@ -1,4 +1,4 @@
-<img src=".github/eslint-config-cover.png" />
+<picture><img src=".github/eslint-config-cover.png" /></picture>
 
 <div align="center">
 
