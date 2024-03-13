@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.2.4](https://github.com/stefanobartoletti/eslint-config/compare/1.2.3...1.2.4) (2024-03-13)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.8.0 ([136b071](https://github.com/stefanobartoletti/eslint-config/commit/136b071de64f8cbf24187bd90bdfd07d757a76b1))
+* **deps:** update dependency @antfu/eslint-config to ^2.8.1 ([720c9aa](https://github.com/stefanobartoletti/eslint-config/commit/720c9aa20e69d7eb1b6ba101357fe30abc2bc11d))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.15.0 ([5616abc](https://github.com/stefanobartoletti/eslint-config/commit/5616abcd4049a725b7119d294e9764226813d9b6))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.15.1 ([f5d7499](https://github.com/stefanobartoletti/eslint-config/commit/f5d74991fe2be1852b08c95dfb383940436c4f92))
+
+
+### 📖 Documentation
+
+* Add VS Code support ([e70f88e](https://github.com/stefanobartoletti/eslint-config/commit/e70f88e16d0ef10b1a22cb31a88a15a41fea6f1c))
+* fix readme ([fd08f69](https://github.com/stefanobartoletti/eslint-config/commit/fd08f697f6b36650328a756d8f68cbe7207f6f1c))
+* update readme ([89b5ef6](https://github.com/stefanobartoletti/eslint-config/commit/89b5ef6597f3ea149111004fca5113f04f559bd0))
+
 ## [1.2.3](https://github.com/stefanobartoletti/eslint-config/compare/1.2.2...1.2.3) (2024-03-04)
 
 
