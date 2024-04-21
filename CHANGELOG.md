@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.6](https://github.com/stefanobartoletti/eslint-config/compare/1.2.5...1.2.6) (2024-04-21)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.13.2 ([befcf51](https://github.com/stefanobartoletti/eslint-config/commit/befcf519279402e6bf7ae10f9e86d62da2d30d06))
+* **deps:** update dependency @antfu/eslint-config to ^2.15.0 ([8174460](https://github.com/stefanobartoletti/eslint-config/commit/8174460e732bb601693aae7678843fee7910ba53))
+* **deps:** update dependency eslint-plugin-format to ^0.1.1 ([ef1828a](https://github.com/stefanobartoletti/eslint-config/commit/ef1828ab03bba89740f016602466cbf379ea50cb))
+
 ## [1.2.5](https://github.com/stefanobartoletti/eslint-config/compare/1.2.4...1.2.5) (2024-04-04)
 
 
