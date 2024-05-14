@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.8](https://github.com/stefanobartoletti/eslint-config/compare/1.2.7...1.2.8) (2024-05-14)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.18.0 ([7ea9a32](https://github.com/stefanobartoletti/eslint-config/commit/7ea9a32d718e64218906f98fcd72774a6023b16d))
+
 ## [1.2.7](https://github.com/stefanobartoletti/eslint-config/compare/1.2.6...1.2.7) (2024-05-07)
 
 
