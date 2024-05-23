@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/stefanobartoletti/eslint-config/compare/1.2.8...1.3.0) (2024-05-23)
+
+
+### 🚀 Features
+
+* update tailwind config to support "flat-config" ([d7246a4](https://github.com/stefanobartoletti/eslint-config/commit/d7246a44979a96c7ec4a0d3d4b2e35a3036ce2e7))
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.18.1 ([7a205a0](https://github.com/stefanobartoletti/eslint-config/commit/7a205a0dd2287fd7daa22636bbe2a1c2075a58d9))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.17.0 ([b2fadf8](https://github.com/stefanobartoletti/eslint-config/commit/b2fadf8f87284a045cc5ad27de65a98b4c9d07f6))
+
 ## [1.2.8](https://github.com/stefanobartoletti/eslint-config/compare/1.2.7...1.2.8) (2024-05-14)
 
 
