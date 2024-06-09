@@ -29,7 +29,7 @@
     "eslint": ">=9.3.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^2.19.1",
+    "@antfu/eslint-config": "^2.21.0",
     "eslint-plugin-format": "^0.1.1",
     "eslint-plugin-tailwindcss": "^3.17.3"
   },
