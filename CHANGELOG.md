@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.0.0-rc.0](https://github.com/stefanobartoletti/eslint-config/compare/1.3.1...2.0.0-rc.0) (2024-06-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* import Nuxt rules directly from the new `@nuxt/eslint-config` package
+* moved vue-related custom rules to optional config
+
+### 🚀 Features
+
+* import Nuxt rules directly from the new `@nuxt/eslint-config` package ([299de54](https://github.com/stefanobartoletti/eslint-config/commit/299de54ea5c51694e43ef45245bcdff37d543dbf))
+* moved vue-related custom rules to optional config ([ca66980](https://github.com/stefanobartoletti/eslint-config/commit/ca669800a380d24848e9ba870f7fa4061e7eab06))
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.21.0 ([d67ca49](https://github.com/stefanobartoletti/eslint-config/commit/d67ca49de30019af966fcba7849a9c0068d7d5c2))
+* **deps:** update dependency @antfu/eslint-config to ^2.21.1 ([78d9d2a](https://github.com/stefanobartoletti/eslint-config/commit/78d9d2ae1538e49920124f5ad99440e048e89041))
+* **deps:** update dependency eslint-plugin-format to ^0.1.2 ([1753003](https://github.com/stefanobartoletti/eslint-config/commit/17530037eb9e6b7b9bc21bd858c7e1a41acda4bd))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.17.3 ([1d5378f](https://github.com/stefanobartoletti/eslint-config/commit/1d5378f63f0f48ef6a97e9be20db50cf16dfc438))
+
 ## [1.3.1](https://github.com/stefanobartoletti/eslint-config/compare/1.3.0...1.3.1) (2024-05-31)
 
 
