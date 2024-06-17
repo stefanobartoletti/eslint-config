@@ -1,6 +1,7 @@
 // https://eslint.nuxt.com/packages/config
 
 import { createConfigForNuxt } from '@nuxt/eslint-config/flat'
+import sbConfigVue from './sbConfigVue.js'
 
 export default createConfigForNuxt({
   features: {
@@ -9,6 +10,8 @@ export default createConfigForNuxt({
   },
 })
   .append(
+    // Import Vue rules
+    sbConfigVue,
     // Components should have multiple word names.
     {
       name: 'stefanobartoletti/nuxt/components',

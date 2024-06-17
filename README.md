@@ -94,7 +94,7 @@ export default stefanobartoletti(
 
 ##### Using optional Vue, Nuxt or Tailwind configs
 
-This package also provides optional configuration for Vue, Nuxt and Tailwind. They can be used together or by themsevles, and together with further custom rules.
+This package also provides optional configuration for Vue, Nuxt and Tailwind. They can be used together or by themselves, and together with further custom rules.
 
 ```js
 // eslint.config.js
@@ -102,7 +102,7 @@ import { nuxt, stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslin
 
 export default stefanobartoletti(
   {}, // @antfu/eslint-config options, must always be present as first item even if empty
-  vue,
+  vue, // also included in 'nuxt', no need to use them both
   nuxt,
   tailwind,
   {
@@ -113,6 +113,7 @@ export default stefanobartoletti(
 
 > [!WARNING]
 > Starting from `v2.x`, all my custom Vue-related rules must be explicitly imported with the `vue` key. They were previously included in the base configuration, and automatically active even when not really needed.
+> Rules from `vue` are also automatically imported when using `nuxt`, for obvious reasons, so there is no need to import it individually if using the latter.
 
 ## 📝 VS Code Support
 
