@@ -11,7 +11,7 @@ export default createConfigForNuxt({
   .append(
     // Components should have multiple word names.
     {
-      name: 'stefanobartoletti:nuxt:components',
+      name: 'stefanobartoletti/nuxt/components',
       files: ['**/components/**/*.{js,ts,jsx,tsx,vue}'],
       rules: {
         'vue/multi-word-component-names': 'warn',

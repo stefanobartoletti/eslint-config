@@ -1,7 +1,7 @@
 const sbConfigVue = [
 
   {
-    name: 'stefanobartoletti:vue',
+    name: 'stefanobartoletti/vue',
     files: ['**/*.vue'],
     rules: {
       'vue/max-attributes-per-line': ['error', {

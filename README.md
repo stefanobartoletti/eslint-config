@@ -22,7 +22,6 @@ This is my personal ESlint configuration, based on the excellent [`@antfu/eslint
 
 My config also adds some additional and optional rulesets for Nuxt and Tailwind (by using respectively [`@nuxt/eslint-config`](https://eslint.nuxt.com/packages/config) and [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss))
 
-
 Some of the main features, inherited directly from `@antfu/eslint-config`:
 
 - Vue and TypeScript support

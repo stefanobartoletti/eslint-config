@@ -1,7 +1,7 @@
 const sbConfigBase = [
 
   {
-    name: 'stefanobartoletti:base',
+    name: 'stefanobartoletti/base',
     rules: {
       'curly': ['error', 'all'],
       'style/function-call-spacing': ['error', 'never'],
