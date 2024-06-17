@@ -11,6 +11,9 @@ importers:
       '@antfu/eslint-config':
         specifier: ^2.21.1
         version: 2.21.1(@vue/compiler-sfc@3.4.21)(eslint-plugin-format@0.1.2(eslint@9.5.0))(eslint@9.5.0)(typescript@5.2.2)
+      '@nuxt/eslint-config':
+        specifier: ^0.3.13
+        version: 0.3.13(eslint@9.5.0)(typescript@5.2.2)
       eslint-plugin-format:
         specifier: ^0.1.2
         version: 0.1.2(eslint@9.5.0)
@@ -300,6 +303,16 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
+  '@nuxt/eslint-config@0.3.13':
+    resolution: {integrity: sha512-xnMkcrz9vFjtIuKsfOPhNOKFVD51JZClj/16raciHVOK9eiqZuQjbxaf60b7ffk7cmD1EDhlQhbSxaLAJm/QYg==}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0
+
+  '@nuxt/eslint-plugin@0.3.13':
+    resolution: {integrity: sha512-8LW9QJgVSARgO7QZmRy6vmWjDdHiAy/GNN3zKFPBetQxj5ECXsK0Ggfn8RiSi9rgqJSQjXDvMMHFpHiDETXgSQ==}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0
+
   '@octokit/auth-token@4.0.0':
     resolution: {integrity: sha512-tY/msAuJo6ARbK6SPIxZrPBms3xPbfwBrulZe0Wtr/DIY9lje2HeV1uoebShn6mx7SjCHif6EjMvoREj+gZ+SA==}
     engines: {node: '>= 18'}
@@ -385,6 +398,9 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       release-it: ^17.0.0
+
+  '@rushstack/eslint-patch@1.10.3':
+    resolution: {integrity: sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==}
 
   '@sindresorhus/is@5.6.0':
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
@@ -3489,6 +3505,39 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
+  '@nuxt/eslint-config@0.3.13(eslint@9.5.0)(typescript@5.2.2)':
+    dependencies:
+      '@eslint/js': 9.5.0
+      '@nuxt/eslint-plugin': 0.3.13(eslint@9.5.0)(typescript@5.2.2)
+      '@rushstack/eslint-patch': 1.10.3
+      '@stylistic/eslint-plugin': 2.1.0(eslint@9.5.0)(typescript@5.2.2)
+      '@typescript-eslint/eslint-plugin': 7.13.0(@typescript-eslint/parser@7.13.0(eslint@9.5.0)(typescript@5.2.2))(eslint@9.5.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': 7.13.0(eslint@9.5.0)(typescript@5.2.2)
+      eslint: 9.5.0
+      eslint-config-flat-gitignore: 0.1.5
+      eslint-flat-config-utils: 0.2.5
+      eslint-plugin-import-x: 0.5.1(eslint@9.5.0)(typescript@5.2.2)
+      eslint-plugin-jsdoc: 48.2.9(eslint@9.5.0)
+      eslint-plugin-regexp: 2.6.0(eslint@9.5.0)
+      eslint-plugin-unicorn: 53.0.0(eslint@9.5.0)
+      eslint-plugin-vue: 9.26.0(eslint@9.5.0)
+      globals: 15.4.0
+      pathe: 1.1.2
+      tslib: 2.6.2
+      vue-eslint-parser: 9.4.3(eslint@9.5.0)
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
+  '@nuxt/eslint-plugin@0.3.13(eslint@9.5.0)(typescript@5.2.2)':
+    dependencies:
+      '@typescript-eslint/types': 7.13.0
+      '@typescript-eslint/utils': 7.13.0(eslint@9.5.0)(typescript@5.2.2)
+      eslint: 9.5.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   '@octokit/auth-token@4.0.0': {}
 
   '@octokit/core@5.2.0':
@@ -3586,6 +3635,8 @@ snapshots:
       conventional-recommended-bump: 9.0.0
       release-it: 17.3.0(typescript@5.2.2)
       semver: 7.5.4
+
+  '@rushstack/eslint-patch@1.10.3': {}
 
   '@sindresorhus/is@5.6.0': {}
 

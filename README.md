@@ -8,7 +8,7 @@
 [![code style][antfu-src]][antfu-href]
 <!-- [![code quality][code-quality-src]][code-quality-href] -->
 
-My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Also includes optional rulesets for Vue, Nuxt and Tailwind.
+My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Also includes optional rulesets for Nuxt and Tailwind.
 
 [Release Notes](/CHANGELOG.md)
 
@@ -20,7 +20,8 @@ My ESlint configuration, based on `@antfu/eslint-config` with personal customiza
 
 This is my personal ESlint configuration, based on the excellent [`@antfu/eslint-config`](https://github.com/antfu/eslint-config). It only deviates for some minor tweaks and personal preferences, since I agree almost completely with Anthony's style choices.
 
-My config also adds some additional and optional rulesets for Nuxt and Tailwind (the latter by using [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss))
+My config also adds some additional and optional rulesets for Nuxt and Tailwind (by using respectively [`@nuxt/eslint-config`](https://eslint.nuxt.com/packages/config) and [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss))
+
 
 Some of the main features, inherited directly from `@antfu/eslint-config`:
 
@@ -36,8 +37,8 @@ My own customizations and preferences:
 - (General) Disable `antfu/top-level-function` to allow arrow syntax on top level functions
 - (Vue - *Optional*) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
 - (Vue - *Optional*) Set block order to `<template>`, `<script>`, `<style>`
-- (Nuxt - *Optional*) Set some specific Nuxt rules if not already covered by Antfu's config (sourced from `@nuxt/eslint-config`)
-- (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (by including `eslint-plugin-tailwindcss`)
+- (Nuxt - *Optional*) Set specific rules for Nuxt (imported directly from the official `@nuxt/eslint-config`)
+- (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (imported directly from `eslint-plugin-tailwindcss`)
 - ... and some other minor tweaks
 
 ## 🛠️ Setup
@@ -102,8 +103,8 @@ import { nuxt, stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslin
 
 export default stefanobartoletti(
   {}, // @antfu/eslint-config options, must always be present as first item even if empty
-  nuxt,
   vue,
+  nuxt,
   tailwind,
   {
     // ESlint Flat config rule object
@@ -112,7 +113,7 @@ export default stefanobartoletti(
 ```
 
 > [!WARNING]
-> Starting from `v2.x`, all my custom Vue-related rules are to be explicitly imported to be used. They were previously included in the base configuration and were always active even when not really needed.
+> Starting from `v2.x`, all my custom Vue-related rules must be explicitly imported with the `vue` key. They were previously included in the base configuration, and automatically active even when not really needed.
 
 ## 📝 VS Code Support
 
@@ -141,7 +142,7 @@ For more settings, check the "VS Code support" section in [antfu/eslint-config](
 >
 > Anyway, keep in mind that this is my personal configuration, whose main goal is to provide a shareable base to be used across my own projects, based on my preferences and supporting tools and frameworks that I personally use on a daily basis.
 >
-> I don't have time and resources to support frameworks, tools or features that I am not currently using. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's, you can use this repository as a base for your own custom take on it.
+> Unfortunately I don't have time and resources to support frameworks, tools or features that I am not currently using. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's, you can use this repository as a base for your own custom take on it.
 
 ## 📝 License
 

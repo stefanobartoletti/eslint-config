@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.21.1",
+    "@nuxt/eslint-config": "^0.3.13",
     "eslint-plugin-format": "^0.1.2",
     "eslint-plugin-tailwindcss": "^3.17.3"
   },
