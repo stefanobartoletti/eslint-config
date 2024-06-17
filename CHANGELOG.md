@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-rc.1](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0-rc.0...2.0.0-rc.1) (2024-06-17)
+
+
+### 🩹 Bug Fixes
+
+* import `vue` rules into `nuxt` config ([c013fd3](https://github.com/stefanobartoletti/eslint-config/commit/c013fd31eff53780d75c84217b37e97635d38fd1))
+
 ## [2.0.0-rc.0](https://github.com/stefanobartoletti/eslint-config/compare/1.3.1...2.0.0-rc.0) (2024-06-17)
 
 
