@@ -8,7 +8,7 @@
 [![code style][antfu-src]][antfu-href]
 <!-- [![code quality][code-quality-src]][code-quality-href] -->
 
-My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Also includes optional rulesets for Nuxt and Tailwind.
+My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Also includes optional rulesets for Vue, Nuxt and Tailwind.
 
 [Release Notes](/CHANGELOG.md)
 
@@ -32,10 +32,10 @@ Some of the main features, inherited directly from `@antfu/eslint-config`:
 
 My own customizations and preferences:
 
-- (Vue) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
-- (Vue) Set block order to `<template>`, `<script>`, `<style>`
 - (General) Force use of curly braces on control statements
 - (General) Disable `antfu/top-level-function` to allow arrow syntax on top level functions
+- (Vue - *Optional*) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
+- (Vue - *Optional*) Set block order to `<template>`, `<script>`, `<style>`
 - (Nuxt - *Optional*) Set some specific Nuxt rules if not already covered by Antfu's config (sourced from `@nuxt/eslint-config`)
 - (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (by including `eslint-plugin-tailwindcss`)
 - ... and some other minor tweaks
@@ -92,23 +92,27 @@ export default stefanobartoletti(
 )
 ```
 
-##### Using optional Nuxt or Tailwind configs
+##### Using optional Vue, Nuxt or Tailwind configs
 
-This package also provides optional configuration for Nuxt and Tailwind. They can be used together or by themsevles, and together with further custom rules.
+This package also provides optional configuration for Vue, Nuxt and Tailwind. They can be used together or by themsevles, and together with further custom rules.
 
 ```js
 // eslint.config.js
-import { nuxt, stefanobartoletti, tailwind } from '@stefanobartoletti/eslint-config'
+import { nuxt, stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslint-config'
 
 export default stefanobartoletti(
   {}, // @antfu/eslint-config options, must always be present as first item even if empty
   nuxt,
+  vue,
   tailwind,
   {
     // ESlint Flat config rule object
   },
 )
 ```
+
+> [!WARNING]
+> Starting from `v2.x`, all my custom Vue-related rules are to be explicitly imported to be used. They were previously included in the base configuration and were always active even when not really needed.
 
 ## 📝 VS Code Support
 
@@ -137,7 +141,7 @@ For more settings, check the "VS Code support" section in [antfu/eslint-config](
 >
 > Anyway, keep in mind that this is my personal configuration, whose main goal is to provide a shareable base to be used across my own projects, based on my preferences and supporting tools and frameworks that I personally use on a daily basis.
 >
-> I don't have the resources or the desire to support frameworks, tools or features that I don't personally use. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's, you can use this repository as a base for your own custom take on it.
+> I don't have time and resources to support frameworks, tools or features that I am not currently using. ESlint Flat config is very easy to customize and if my setup does not cater to your needs, but you still want to build up antfu's, you can use this repository as a base for your own custom take on it.
 
 ## 📝 License
 
