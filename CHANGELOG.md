@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-rc.2](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0-rc.1...2.0.0-rc.2) (2024-06-18)
+
+
+### 🩹 Bug Fixes
+
+* set `no-undef` to off to allow auto-imports ([8f17aef](https://github.com/stefanobartoletti/eslint-config/commit/8f17aefdc9dca45481c59b60eaf2ce70111e4e03))
+
 ## [2.0.0-rc.1](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0-rc.0...2.0.0-rc.1) (2024-06-17)
 
 
