@@ -20,4 +20,13 @@ export default createConfigForNuxt({
         'vue/multi-word-component-names': 'warn',
       },
     },
+    // Nuxt has the auto-import feature, no error should be thrown for no-undef.
+    // @nuxt/eslint-config disables this for typescript, setting it off also for plain js.
+    {
+      name: 'stefanobartoletti/nuxt/composables',
+      files: ['**/*.{js,jsx,vue}'],
+      rules: {
+        'no-undef': 'off',
+      },
+    },
   )
