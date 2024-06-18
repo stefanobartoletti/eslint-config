@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.0.0](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0-rc.2...2.0.0) (2024-06-18)
+
 ## [2.0.0-rc.2](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0-rc.1...2.0.0-rc.2) (2024-06-18)
 
 
