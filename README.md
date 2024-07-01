@@ -115,7 +115,7 @@ export default stefanobartoletti(
 #### Integrationg with Nuxt
 
 > [!INFO]
-> This package used to provide custom rules to be used with Nuxt, but the latest versions of the official Nuxt configs effectively made them redundand and unnecessary.  
+> This package used to provide custom rules to be used with Nuxt, but the latest versions of the official Nuxt configs effectively made them redundand and unnecessary.
 > Starting from `v3.x`, Nuxt rules were removed from this package, the recommended way to use this config is to directly integrate it with the Nuxt module.
 
 1. Install the ESLint module with `npx nuxi module add eslint`, as described in the [official docs](https://eslint.nuxt.com/packages/module)
@@ -146,7 +146,7 @@ import { stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslint-conf
 import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
-    // More ESlint Flat configs, appended to Nuxt's
+  // More ESlint Flat configs, appended to Nuxt's
 )
   .prepend(
     stefanobartoletti(
@@ -155,9 +155,7 @@ export default withNuxt(
       tailwind, // Optional, depending on the project
     ),
   )
-
 ```
-
 
 ## 📝 VS Code Support
 
