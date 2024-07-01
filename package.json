@@ -1,7 +1,7 @@
 {
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
-  "version": "2.0.0",
+  "version": "2.0.1-beta.1",
   "packageManager": "pnpm@9.3.0",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
@@ -22,6 +22,7 @@
     "lint:fix": "eslint . --fix",
     "preview": "config-inspector",
     "release": "release-it",
+    "release:beta": "release-it --no-git.requireBranch --preRelease=beta",
     "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
@@ -30,7 +31,6 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.21.1",
-    "@nuxt/eslint-config": "^0.3.13",
     "eslint-plugin-format": "^0.1.2",
     "eslint-plugin-tailwindcss": "^3.17.3"
   },

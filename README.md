@@ -8,7 +8,7 @@
 [![code style][antfu-src]][antfu-href]
 <!-- [![code quality][code-quality-src]][code-quality-href] -->
 
-My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Also includes optional rulesets for Nuxt and Tailwind.
+My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Nicely integrates with Nuxt and provides optional rules for Tailwind.
 
 [Release Notes](/CHANGELOG.md)
 
@@ -20,7 +20,7 @@ My ESlint configuration, based on `@antfu/eslint-config` with personal customiza
 
 This is my personal ESlint configuration, based on the excellent [`@antfu/eslint-config`](https://github.com/antfu/eslint-config). It only deviates for some minor tweaks and personal preferences, since I agree almost completely with Anthony's style choices.
 
-My config also adds some additional and optional rulesets for Nuxt and Tailwind (by using respectively [`@nuxt/eslint-config`](https://eslint.nuxt.com/packages/config) and [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss))
+This config integrates nicely with the [`Nuxt ESLint`](https://eslint.nuxt.com) module, and also adds optional rules for Tailwind, by using [`eslint-plugin-tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 
 Some of the main features, inherited directly from `@antfu/eslint-config`:
 
@@ -36,7 +36,6 @@ My own customizations and preferences:
 - (General) Disable `antfu/top-level-function` to allow arrow syntax on top level functions
 - (Vue - *Optional*) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
 - (Vue - *Optional*) Set block order to `<template>`, `<script>`, `<style>`
-- (Nuxt - *Optional*) Set specific rules for Nuxt (imported directly from the official `@nuxt/eslint-config`)
 - (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (imported directly from `eslint-plugin-tailwindcss`)
 - ... and some other minor tweaks
 
@@ -92,18 +91,17 @@ export default stefanobartoletti(
 )
 ```
 
-##### Using optional Vue, Nuxt or Tailwind configs
+#### Using optional Vue and Tailwind rules
 
-This package also provides optional configuration for Vue, Nuxt and Tailwind. They can be used together or by themselves, and together with further custom rules.
+This package also provides optional configuration for Vue and Tailwind. They can be used together or by themselves, and together with further custom rules.
 
 ```js
 // eslint.config.js
-import { nuxt, stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslint-config'
+import { stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslint-config'
 
 export default stefanobartoletti(
   {}, // @antfu/eslint-config options, must always be present as first item even if empty
-  vue, // also included in 'nuxt', no need to use them both
-  nuxt,
+  vue,
   tailwind,
   {
     // ESlint Flat config rule object
@@ -112,8 +110,52 @@ export default stefanobartoletti(
 ```
 
 > [!WARNING]
-> Starting from `v2.x`, all my custom Vue-related rules must be explicitly imported with the `vue` key. They were previously included in the base configuration, and automatically active even when not really needed.
-> Rules from `vue` are also automatically imported when using `nuxt`, for obvious reasons, so there is no need to import it individually if using the latter.
+> Starting from `v2.x`, all my custom Vue-related rules must be explicitly imported with the `vue` key. They were previously included in the base configuration, and automatically active even when not really needed or when the Vue plugins were not active.
+
+#### Integrationg with Nuxt
+
+> [!INFO]
+> This package used to provide custom rules to be used with Nuxt, but the latest versions of the official Nuxt configs effectively made them redundand and unnecessary.
+> Starting from `v3.x`, Nuxt rules were removed from this package, the recommended way to use this config is to directly integrate it with the Nuxt module.
+
+1. Install the ESLint module with `npx nuxi module add eslint`, as described in the [official docs](https://eslint.nuxt.com/packages/module)
+
+2. Set it to be "standalone", to prevent conflicting with `@antfu/eslint-config`:
+
+```ts
+// nuxt.config.ts
+export default defineNuxtConfig({
+
+  modules: [
+    '@nuxt/eslint',
+  ],
+
+  eslint: {
+    config: {
+      standalone: false, // <-- Important to work correctly
+    },
+  },
+})
+```
+
+3. Integrate this config by prepending it to the Nuxt provided one:
+
+```js
+// eslint.config.js
+import { stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslint-config'
+import withNuxt from './.nuxt/eslint.config.mjs'
+
+export default withNuxt(
+  // More ESlint Flat configs, appended to Nuxt's
+)
+  .prepend(
+    stefanobartoletti(
+      {}, // Antfu Options, required
+      vue, // Optional, but recommended to follow this config style preferences
+      tailwind, // Optional, depending on the project
+    ),
+  )
+```
 
 ## 📝 VS Code Support
 

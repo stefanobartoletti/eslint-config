@@ -2,7 +2,6 @@ import antfu from '@antfu/eslint-config'
 import antfuOptions from './rules/antfuOptions.js'
 import sbConfigBase from './rules/sbConfigBase.js'
 import sbConfigVue from './rules/sbConfigVue.js'
-import sbConfigNuxt from './rules/sbConfigNuxt.js'
 import sbConfigTailwind from './rules/sbConfigTailwind.js'
 
 const stefanobartoletti = (options, ...configs) => {
@@ -19,12 +18,10 @@ const stefanobartoletti = (options, ...configs) => {
 }
 
 const vue = sbConfigVue
-const nuxt = sbConfigNuxt
 const tailwind = sbConfigTailwind
 
 export {
   stefanobartoletti,
   vue,
-  nuxt,
   tailwind,
 }
