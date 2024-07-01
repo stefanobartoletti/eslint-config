@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.1-beta.1](https://github.com/stefanobartoletti/eslint-config/compare/2.0.1-beta.0...2.0.1-beta.1) (2024-07-01)
+
+
+### 📖 Documentation
+
+* update docs ([88df1fa](https://github.com/stefanobartoletti/eslint-config/commit/88df1facde2966f195c21f81a917210cf3501765))
+
+
+### ⚙️ Refactor
+
+* remove nuxt config ([ea05584](https://github.com/stefanobartoletti/eslint-config/commit/ea055844e026ddd130409b9e71c9d8bd7d061d6d))
+
 ## [2.0.1-beta.0](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0...2.0.1-beta.0) (2024-06-28)
 
 ## [2.0.0](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0-rc.2...2.0.0) (2024-06-18)
