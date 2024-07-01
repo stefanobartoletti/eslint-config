@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0...3.0.0) (2024-07-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove Nuxt config, to integrate with the official module
+
+### ⚙️ Refactor
+
+* remove Nuxt config, to integrate with the official module ([bcb0256](https://github.com/stefanobartoletti/eslint-config/commit/bcb0256e45aaa87fc7ddab168acff71ec4bc650c))
+
 ## [2.0.1-beta.1](https://github.com/stefanobartoletti/eslint-config/compare/2.0.1-beta.0...2.0.1-beta.1) (2024-07-01)
 
 
