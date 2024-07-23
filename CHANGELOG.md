@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.1](https://github.com/stefanobartoletti/eslint-config/compare/3.0.0...3.0.1) (2024-07-23)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^2.23.2 ([363e236](https://github.com/stefanobartoletti/eslint-config/commit/363e236e26aa7c840aa36818a8f94b776a5a0fcc))
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.17.4 ([73becca](https://github.com/stefanobartoletti/eslint-config/commit/73beccadcb673d6d28f7f8a82611f26eeb2848e4))
+
 ## [3.0.0](https://github.com/stefanobartoletti/eslint-config/compare/2.0.0...3.0.0) (2024-07-01)
 
 
