@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.4](https://github.com/stefanobartoletti/eslint-config/compare/3.0.3...3.0.4) (2024-10-02)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^3.7.3 ([a2df1fc](https://github.com/stefanobartoletti/eslint-config/commit/a2df1fc0d0466e1be11d60be084871c920d099f0))
+
 ## [3.0.3](https://github.com/stefanobartoletti/eslint-config/compare/3.0.2...3.0.3) (2024-09-13)
 
 
