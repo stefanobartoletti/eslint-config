@@ -30,7 +30,7 @@
     "eslint": ">=9.11.1"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^3.6.0",
+    "@antfu/eslint-config": "^3.7.3",
     "eslint-plugin-format": "^0.1.2",
     "eslint-plugin-tailwindcss": "^3.17.4"
   },
