@@ -41,6 +41,6 @@
     "@release-it/conventional-changelog": "^8.0.2",
     "eslint": "^9.11.1",
     "husky": "^9.1.6",
-    "release-it": "^17.6.0"
+    "release-it": "^17.8.2"
   }
 }
