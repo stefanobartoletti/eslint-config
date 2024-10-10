@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.5](https://github.com/stefanobartoletti/eslint-config/compare/3.0.4...3.0.5) (2024-10-10)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency eslint-plugin-tailwindcss to ^3.17.5 ([3626791](https://github.com/stefanobartoletti/eslint-config/commit/3626791e1eaeea59ffc48efbe5ac59f26d728895))
+* **deps:** update lockfile ([0f75755](https://github.com/stefanobartoletti/eslint-config/commit/0f757557747b72d87ab41d2fea411572d2a6b147))
+
 ## [3.0.4](https://github.com/stefanobartoletti/eslint-config/compare/3.0.3...3.0.4) (2024-10-02)
 
 
