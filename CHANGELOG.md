@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.6](https://github.com/stefanobartoletti/eslint-config/compare/3.0.5...3.0.6) (2024-10-17)
+
+
+### 🩹 Bug Fixes
+
+* **deps:** update dependency @antfu/eslint-config to ^3.8.0 ([54a3df2](https://github.com/stefanobartoletti/eslint-config/commit/54a3df28b0fff8a6fda3fc5c7a90c62a2031dfb5))
+
+
+### 🔙 Reverts
+
+* Revert "chore(deps): update dependency @release-it/conventional-changelog to v9" ([deb7813](https://github.com/stefanobartoletti/eslint-config/commit/deb781369b3fbcf8aade43af8818704738bd74e8))
+
 ## [3.0.5](https://github.com/stefanobartoletti/eslint-config/compare/3.0.4...3.0.5) (2024-10-10)
 
 
