@@ -1,5 +1,17 @@
 # Changelog
 
+## <small>3.0.7 (2024-11-14)</small>
+
+* fix(deps): update dependency @antfu/eslint-config to ^3.9.1 ([f7d9834](https://github.com/stefanobartoletti/eslint-config/commit/f7d9834))
+* chore(deps): update dependency @eslint/config-inspector to ^0.5.5 ([38de8df](https://github.com/stefanobartoletti/eslint-config/commit/38de8df))
+* chore(deps): update dependency @eslint/config-inspector to ^0.5.6 ([c4de8d7](https://github.com/stefanobartoletti/eslint-config/commit/c4de8d7))
+* chore(deps): update dependency @release-it/conventional-changelog to v9 ([0d23450](https://github.com/stefanobartoletti/eslint-config/commit/0d23450))
+* chore(deps): update dependency eslint to v9.13.0 ([b123700](https://github.com/stefanobartoletti/eslint-config/commit/b123700))
+* chore(deps): update dependency eslint to v9.14.0 ([e130caf](https://github.com/stefanobartoletti/eslint-config/commit/e130caf))
+* chore(deps): update dependency release-it to ^17.10.0 ([cf16bc6](https://github.com/stefanobartoletti/eslint-config/commit/cf16bc6))
+* chore(deps): update pnpm to v9.12.3 ([eb09856](https://github.com/stefanobartoletti/eslint-config/commit/eb09856))
+* chore(deps): update pnpm to v9.13.0 ([e321ad6](https://github.com/stefanobartoletti/eslint-config/commit/e321ad6))
+
 ## [3.0.6](https://github.com/stefanobartoletti/eslint-config/compare/3.0.5...3.0.6) (2024-10-17)
 
 
