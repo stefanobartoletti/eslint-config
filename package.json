@@ -40,7 +40,7 @@
     "@eslint/config-inspector": "^0.6.0",
     "@release-it/conventional-changelog": "^9.0.3",
     "eslint": "^9.16.0",
-    "husky": "^9.1.6",
+    "husky": "^9.1.7",
     "release-it": "^17.10.0"
   }
 }
