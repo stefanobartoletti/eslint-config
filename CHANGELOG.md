@@ -1,5 +1,16 @@
 # Changelog
 
+## <small>3.0.8 (2024-12-12)</small>
+
+* chore(deps): rebuild lockfile ([b5a415a](https://github.com/stefanobartoletti/eslint-config/commit/b5a415a))
+* chore(deps): update commitlint monorepo to ^19.6.0 ([2db68ce](https://github.com/stefanobartoletti/eslint-config/commit/2db68ce))
+* chore(deps): update dependency @eslint/config-inspector to ^0.6.0 ([3ee572d](https://github.com/stefanobartoletti/eslint-config/commit/3ee572d))
+* chore(deps): update dependency eslint to v9.16.0 ([7be4cdb](https://github.com/stefanobartoletti/eslint-config/commit/7be4cdb))
+* chore(deps): update dependency husky to ^9.1.7 ([38bd8e7](https://github.com/stefanobartoletti/eslint-config/commit/38bd8e7))
+* chore(deps): update pnpm to v9.15.0 ([da21e7f](https://github.com/stefanobartoletti/eslint-config/commit/da21e7f))
+* fix(deps): update dependency @antfu/eslint-config to ^3.11.2 ([085a6a1](https://github.com/stefanobartoletti/eslint-config/commit/085a6a1))
+* fix(deps): update dependency eslint-plugin-format to ^0.1.3 ([60acb9e](https://github.com/stefanobartoletti/eslint-config/commit/60acb9e))
+
 ## <small>3.0.7 (2024-11-14)</small>
 
 * fix(deps): update dependency @antfu/eslint-config to ^3.9.1 ([f7d9834](https://github.com/stefanobartoletti/eslint-config/commit/f7d9834))
