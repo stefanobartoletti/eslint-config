@@ -35,7 +35,7 @@
     "eslint-plugin-tailwindcss": "^3.17.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.0",
+    "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@eslint/config-inspector": "^0.6.0",
     "@release-it/conventional-changelog": "^9.0.3",
