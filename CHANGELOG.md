@@ -1,5 +1,12 @@
 # Changelog
 
+## <small>3.0.9 (2025-01-17)</small>
+
+* chore: update dependencies ([c8e802e](https://github.com/stefanobartoletti/eslint-config/commit/c8e802e))
+* chore(config): migrate config .github/renovate.json ([1b0085d](https://github.com/stefanobartoletti/eslint-config/commit/1b0085d))
+* chore(deps): update pnpm to v9.15.4 ([8602d54](https://github.com/stefanobartoletti/eslint-config/commit/8602d54))
+* ci: update renovate rules ([27d12cd](https://github.com/stefanobartoletti/eslint-config/commit/27d12cd))
+
 ## <small>3.0.8 (2024-12-12)</small>
 
 * chore(deps): rebuild lockfile ([b5a415a](https://github.com/stefanobartoletti/eslint-config/commit/b5a415a))
