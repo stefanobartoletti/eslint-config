@@ -27,7 +27,7 @@
     "prepare": "husky"
   },
   "peerDependencies": {
-    "eslint": ">=9.16.0"
+    "eslint": ">=9.18.0"
   },
   "dependencies": {
     "@antfu/eslint-config": "^3.14.0",
