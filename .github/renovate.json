@@ -5,16 +5,20 @@
   ],
   "rangeStrategy": "bump",
   "prHourlyLimit": 0,
-  "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "vulnerabilityAlerts": {
-    "labels": ["security"],
+    "labels": [
+      "security"
+    ],
     "enabled": true
   },
   "packageRules": [
     {
       "groupName": "@commitlint",
-      "matchPackagePrefixes": [
-        "@commitlint/"
+      "matchPackageNames": [
+        "@commitlint/{/,}**"
       ]
     }
   ]
