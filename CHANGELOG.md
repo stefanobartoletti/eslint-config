@@ -1,5 +1,13 @@
 # Changelog
 
+## <small>3.0.10 (2025-01-29)</small>
+
+* chore(deps): update dependency eslint to >=9.18.0 ([881f05b](https://github.com/stefanobartoletti/eslint-config/commit/881f05b))
+* chore(deps): update dependency eslint to v9.19.0 ([e4fb806](https://github.com/stefanobartoletti/eslint-config/commit/e4fb806))
+* chore(deps): update dependency release-it to ^18.1.2 ([6f31bd8](https://github.com/stefanobartoletti/eslint-config/commit/6f31bd8))
+* fix(deps): update dependency @antfu/eslint-config to v4 ([b5b635f](https://github.com/stefanobartoletti/eslint-config/commit/b5b635f))
+* fix(deps): update dependency eslint-plugin-tailwindcss to ^3.18.0 ([be1426b](https://github.com/stefanobartoletti/eslint-config/commit/be1426b))
+
 ## <small>3.0.9 (2025-01-17)</small>
 
 * chore: update dependencies ([c8e802e](https://github.com/stefanobartoletti/eslint-config/commit/c8e802e))
