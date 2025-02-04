@@ -24,11 +24,11 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: pnpm
 
-      - run: corepack enable  # Enable Corepack
+      - name: Install pnpm
+        run: npm install -g pnpm@9.15.4  # Explicitly install pnpm globally
 
-      - run: corepack prepare pnpm@latest --activate  # Explicitly prepare pnpm
-
-      - run: pnpm --version  # Check if pnpm is available
+      - name: Verify pnpm installation
+        run: pnpm --version  # Ensure pnpm is available before proceeding
 
       - name: 📦 Install dependencies
         run: pnpm install
