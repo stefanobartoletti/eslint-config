@@ -40,8 +40,8 @@
     "eslint-plugin-format": "^1.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
     "@eslint/config-inspector": "^1.0.0",
     "@release-it/conventional-changelog": "^10.0.0",
     "eslint": "^9.19.0",
