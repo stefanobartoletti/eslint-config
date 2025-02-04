@@ -112,10 +112,14 @@ export default stefanobartoletti(
 > [!WARNING]
 > Starting from `v2.x`, all my custom Vue-related rules must be explicitly imported with the `vue` key. They were previously included in the base configuration, and automatically active even when not really needed or when the Vue plugins were not active.
 
+> [!WARNING]
+> If you want to use tailwind configuration (currently only for Tailwind 3), you must explicitly instal the required plugin with `pnpm i -D eslint-plugin-tailwindcss`
+
 #### Integrationg with Nuxt
 
 > [!INFO]
 > This package used to provide custom rules to be used with Nuxt, but the latest versions of the official Nuxt configs effectively made them redundand and unnecessary.
+>
 > Starting from `v3.x`, Nuxt rules were removed from this package, the recommended way to use this config is to directly integrate it with the Nuxt module.
 
 1. Install the ESLint module with `npx nuxi module add eslint`, as described in the [official docs](https://eslint.nuxt.com/packages/module)
@@ -152,7 +156,7 @@ export default withNuxt(
     stefanobartoletti(
       {}, // Antfu Options, required
       vue, // Optional, but recommended to follow this config style preferences
-      tailwind, // Optional, depending on the project
+      tailwind, // Optional, depending on the project (you need to explkcitly install `eslint-plugin-tailwindcss`)
     ),
   )
 ```
