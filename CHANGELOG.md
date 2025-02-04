@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.0.0 (2025-02-04)
+
+* docs: update docs ([2428c6d](https://github.com/stefanobartoletti/eslint-config/commit/2428c6d))
+* fix(deps): update dependency @antfu/eslint-config to ^4.1.1 ([4f3b535](https://github.com/stefanobartoletti/eslint-config/commit/4f3b535))
+* feat!: move eslint-plugin-tailwindcss to peerDependencies ([f272ff4](https://github.com/stefanobartoletti/eslint-config/commit/f272ff4))
+* chore(deps): update @commitlint to ^19.7.1 ([13c02d9](https://github.com/stefanobartoletti/eslint-config/commit/13c02d9))
+* chore(deps): update pnpm to v9.15.5 ([5945b1d](https://github.com/stefanobartoletti/eslint-config/commit/5945b1d))
+
+
 ## <small>3.0.10 (2025-01-29)</small>
 
 * chore(deps): update dependency eslint to >=9.18.0 ([881f05b](https://github.com/stefanobartoletti/eslint-config/commit/881f05b))
