@@ -27,12 +27,17 @@
     "prepare": "husky"
   },
   "peerDependencies": {
-    "eslint": ">=9.19.0"
+    "eslint": ">=9.19.0",
+    "eslint-plugin-tailwindcss": "^3.18.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-tailwindcss": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@antfu/eslint-config": "^4.1.0",
-    "eslint-plugin-format": "^1.0.1",
-    "eslint-plugin-tailwindcss": "^3.18.0"
+    "eslint-plugin-format": "^1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
@@ -40,6 +45,7 @@
     "@eslint/config-inspector": "^1.0.0",
     "@release-it/conventional-changelog": "^10.0.0",
     "eslint": "^9.19.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
     "husky": "^9.1.7",
     "release-it": "^18.1.2"
   }
