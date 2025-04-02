@@ -1,5 +1,16 @@
 # Changelog
 
+## <small>4.0.1 (2025-04-02)</small>
+
+* chore(deps): update @commitlint to ^19.8.0 ([1415b72](https://github.com/stefanobartoletti/eslint-config/commit/1415b72))
+* chore(deps): update dependency @eslint/config-inspector to ^1.0.1 ([a988eaa](https://github.com/stefanobartoletti/eslint-config/commit/a988eaa))
+* chore(deps): update dependency @eslint/config-inspector to ^1.0.2 ([9f144eb](https://github.com/stefanobartoletti/eslint-config/commit/9f144eb))
+* chore(deps): update dependency eslint to v9.23.0 ([eda944f](https://github.com/stefanobartoletti/eslint-config/commit/eda944f))
+* chore(deps): update pnpm to v10 ([de7b305](https://github.com/stefanobartoletti/eslint-config/commit/de7b305))
+* chore(deps): update pnpm to v9.15.9 ([448a042](https://github.com/stefanobartoletti/eslint-config/commit/448a042))
+* fix(deps): update dependency @antfu/eslint-config to ^4.11.0 ([f19d37b](https://github.com/stefanobartoletti/eslint-config/commit/f19d37b))
+* fix(deps): update dependency @antfu/eslint-config to ^4.4.0 ([aa5f84f](https://github.com/stefanobartoletti/eslint-config/commit/aa5f84f))
+
 ## 4.0.0 (2025-02-04)
 
 * docs: update docs ([2428c6d](https://github.com/stefanobartoletti/eslint-config/commit/2428c6d))
