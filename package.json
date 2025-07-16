@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "eslint": ">=9.23.0",
-    "eslint-plugin-tailwindcss": "^3.18.0"
+    "eslint-plugin-tailwindcss": "^3.18.2"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-tailwindcss": {
@@ -45,7 +45,7 @@
     "@eslint/config-inspector": "^1.0.2",
     "@release-it/conventional-changelog": "^10.0.0",
     "eslint": "^9.23.0",
-    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint-plugin-tailwindcss": "^3.18.2",
     "husky": "^9.1.7",
     "release-it": "^18.1.2"
   }
