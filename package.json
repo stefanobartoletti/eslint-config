@@ -2,7 +2,7 @@
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
   "version": "4.0.1",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.17.1",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
   "license": "MIT",
