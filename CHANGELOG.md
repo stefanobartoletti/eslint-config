@@ -1,5 +1,20 @@
 # Changelog
 
+## <small>4.0.2 (2025-10-01)</small>
+
+* ci: update ci config ([41b5e0c](https://github.com/stefanobartoletti/eslint-config/commit/41b5e0c))
+* chore(deps): update @commitlint to v20 ([f98e181](https://github.com/stefanobartoletti/eslint-config/commit/f98e181))
+* chore(deps): update actions/checkout action to v5 ([47a84de](https://github.com/stefanobartoletti/eslint-config/commit/47a84de))
+* chore(deps): update dependency @eslint/config-inspector to ^1.3.0 ([505f5eb](https://github.com/stefanobartoletti/eslint-config/commit/505f5eb))
+* chore(deps): update dependency @release-it/conventional-changelog to ^10.0.1 ([87d3c4c](https://github.com/stefanobartoletti/eslint-config/commit/87d3c4c))
+* chore(deps): update dependency eslint to v9.36.0 ([9841977](https://github.com/stefanobartoletti/eslint-config/commit/9841977))
+* chore(deps): update dependency eslint-plugin-tailwindcss to ^3.18.2 ([e8281e4](https://github.com/stefanobartoletti/eslint-config/commit/e8281e4))
+* chore(deps): update dependency release-it to v19 ([fa6e67e](https://github.com/stefanobartoletti/eslint-config/commit/fa6e67e))
+* chore(deps): update pnpm to v10.15.1 ([fcf61b5](https://github.com/stefanobartoletti/eslint-config/commit/fcf61b5))
+* chore(deps): update pnpm to v10.17.1 ([b9158a7](https://github.com/stefanobartoletti/eslint-config/commit/b9158a7))
+* fix(deps): update dependency @antfu/eslint-config to v5 ([982db12](https://github.com/stefanobartoletti/eslint-config/commit/982db12))
+* fix(deps): update dependency eslint-plugin-format to ^1.0.2 ([821dd12](https://github.com/stefanobartoletti/eslint-config/commit/821dd12))
+
 ## <small>4.0.1 (2025-04-02)</small>
 
 * chore(deps): update @commitlint to ^19.8.0 ([1415b72](https://github.com/stefanobartoletti/eslint-config/commit/1415b72))
