@@ -47,6 +47,6 @@
     "eslint": "^9.23.0",
     "eslint-plugin-tailwindcss": "^3.18.2",
     "husky": "^9.1.7",
-    "release-it": "^18.1.2"
+    "release-it": "^19.0.5"
   }
 }
