@@ -1,5 +1,23 @@
 # Changelog
 
+## v4.0.3
+
+[compare changes](https://github.com/stefanobartoletti/eslint-config/compare/4.0.2...v4.0.3)
+
+### 🩹 Fixes
+
+- **deps:** Update dependency @antfu/eslint-config to v6 ([2f3b9d7](https://github.com/stefanobartoletti/eslint-config/commit/2f3b9d7))
+
+### 🤖 CI
+
+- Migrate from release-it to changelogen ([210ada8](https://github.com/stefanobartoletti/eslint-config/commit/210ada8))
+- Fix release script ([2bcc1d9](https://github.com/stefanobartoletti/eslint-config/commit/2bcc1d9))
+- Fix changelogen config ([1aa3a1a](https://github.com/stefanobartoletti/eslint-config/commit/1aa3a1a))
+
+### ❤️ Contributors
+
+- Stefano Bartoletti
+
 ## <small>4.0.2 (2025-10-01)</small>
 
 * ci: update ci config ([41b5e0c](https://github.com/stefanobartoletti/eslint-config/commit/41b5e0c))
