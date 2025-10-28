@@ -6,7 +6,10 @@
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
   "license": "MIT",
-  "repository": "stefanobartoletti/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanobartoletti/eslint-config.git"
+  },
   "keywords": [
     "eslint",
     "eslint-config",
