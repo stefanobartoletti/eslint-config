@@ -1,5 +1,22 @@
 # Changelog
 
+## v4.0.4
+
+[compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.3...v4.0.4)
+
+### 🩹 Fixes
+
+- **deps:** Update dependency @antfu/eslint-config to ^6.7.3 ([6d2547e](https://github.com/stefanobartoletti/eslint-config/commit/6d2547e))
+- **deps:** Update dependency eslint-plugin-format to ^1.2.0 ([e3949cb](https://github.com/stefanobartoletti/eslint-config/commit/e3949cb))
+
+### 🏡 Chore
+
+- Fix repository in package.json ([8a63f89](https://github.com/stefanobartoletti/eslint-config/commit/8a63f89))
+
+### ❤️ Contributors
+
+- Stefano Bartoletti
+
 ## v4.0.3
 
 [compare changes](https://github.com/stefanobartoletti/eslint-config/compare/4.0.2...v4.0.3)
