@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.6
+
+[compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.5...v4.0.6)
+
 ## v4.0.5
 
 [compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.4...v4.0.5)
