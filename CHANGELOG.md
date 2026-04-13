@@ -1,5 +1,22 @@
 # Changelog
 
+## v4.0.5
+
+[compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.4...v4.0.5)
+
+### 🏡 Chore
+
+- **release:** V4.0.4 ([e9f01d2](https://github.com/stefanobartoletti/eslint-config/commit/e9f01d2))
+
+### 🤖 CI
+
+- Update npm publishing workflow ([ef46770](https://github.com/stefanobartoletti/eslint-config/commit/ef46770))
+- Update renovate config ([adfd1d4](https://github.com/stefanobartoletti/eslint-config/commit/adfd1d4))
+
+### ❤️ Contributors
+
+- Stefano Bartoletti
+
 ## v4.0.4
 
 [compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.3...v4.0.4)
