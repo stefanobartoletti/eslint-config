@@ -22,8 +22,8 @@ importers:
         specifier: ^20.5.0
         version: 20.5.0
       '@eslint/config-inspector':
-        specifier: ^1.5.0
-        version: 1.5.0(eslint@9.39.4(jiti@2.6.1))
+        specifier: ^2.0.0
+        version: 2.0.0(eslint@9.39.4(jiti@2.6.1))
       changelogen:
         specifier: ^0.6.2
         version: 0.6.2
@@ -415,8 +415,9 @@ packages:
     resolution: {integrity: sha512-gBrxN88gOIf3R7ja5K9slwNayVcZgK6SOUORm2uBzTeIEfeVaIhOpCtTox3P6R7o2jLFwLFTLnC7kU/RGcYEgw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/config-inspector@1.5.0':
-    resolution: {integrity: sha512-YK/VdQ+pibx5pcCI2GPZVO6vFemf/pkB662HuFtc5AA4WLQ9upb3fAoZSjOAYoDJx58qGTDp6xq9ldd/vluNxQ==}
+  '@eslint/config-inspector@2.0.0':
+    resolution: {integrity: sha512-hiKajDjwP72AB52/l+qWBdCui/eVW+XFqpfQqspnnI0wyI9wN/DUNZT8SE+GNniOYKhxHc/qT2Esv/buz5ySOw==}
+    engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
       eslint: ^8.50.0 || ^9.0.0 || ^10.0.0
@@ -2538,7 +2539,7 @@ snapshots:
     dependencies:
       '@eslint/core': 0.17.0
 
-  '@eslint/config-inspector@1.5.0(eslint@9.39.4(jiti@2.6.1))':
+  '@eslint/config-inspector@2.0.0(eslint@9.39.4(jiti@2.6.1))':
     dependencies:
       ansis: 4.2.0
       bundle-require: 5.1.0(esbuild@0.27.7)
