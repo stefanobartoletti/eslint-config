@@ -2,7 +2,7 @@
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
   "version": "4.0.6",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.4",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
   "license": "MIT",
@@ -42,8 +42,8 @@
     "eslint-plugin-format": "^1.5.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.5.0",
-    "@commitlint/config-conventional": "^20.5.0",
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
     "@eslint/config-inspector": "^1.5.0",
     "changelogen": "^0.6.2",
     "eslint": "^9.39.4",
