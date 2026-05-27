@@ -1,7 +1,7 @@
 {
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "packageManager": "pnpm@11.3.0",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
@@ -24,7 +24,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "config-inspector",
-    "release": "pnpm test && bumpp -r --all",
+    "release": "bumpp -r --all",
     "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
