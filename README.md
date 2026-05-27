@@ -1,4 +1,4 @@
-<picture><img src=".github/eslint-config-cover.png" /></picture>
+<picture><img src=".github/eslint-config-cover.png" alt="Stefano Bartoletti's Eslint Config"/></picture>
 
 <div align="center">
 
@@ -6,7 +6,6 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![code style][antfu-src]][antfu-href]
-<!-- [![code quality][code-quality-src]][code-quality-href] -->
 
 My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Nicely integrates with Nuxt and provides optional rules for Tailwind.
 
@@ -202,12 +201,6 @@ For more settings, check the "VS Code support" section in [antfu/eslint-config](
 
 [npm-downloads-src]: https://img.shields.io/npm/dm/@stefanobartoletti/eslint-config.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-downloads-href]: https://npmjs.com/package/@stefanobartoletti/eslint-config
-
-[code-quality-src]: https://img.shields.io/codacy/grade/2089b728f6904916aff7a595c4197b09.svg?style=flat&colorA=18181B&colorB=28CF8D
-[code-quality-href]: https://app.codacy.com/gh/stefanobartoletti/eslint-config
-
-[bundle-size-src]: https://img.shields.io/bundlephobia/minzip/@stefanobartoletti/eslint-config.svg?style=flat&colorA=18181B&colorB=28CF8D
-[bundle-size-href]: https://bundlephobia.com/result?p=@stefanobartoletti/eslint-config
 
 [license-src]: https://img.shields.io/npm/l/@stefanobartoletti/eslint-config.svg?style=flat&colorA=18181B&colorB=28CF8D
 [license-href]: https://npmjs.com/package/@stefanobartoletti/eslint-config
