@@ -1,5 +1,24 @@
 # Changelog
 
+## v5.0.0
+
+[compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.5...v5.0.0)
+
+### 🏡 Chore
+
+- **release:** V4.0.5 ([9203dcc](https://github.com/stefanobartoletti/eslint-config/commit/9203dcc))
+- **release:** V4.0.6 ([b13f8cc](https://github.com/stefanobartoletti/eslint-config/commit/b13f8cc))
+- **deps:** ⚠️  Update eslint to v10, @antfu/eslint-config to v9 ([2c2061b](https://github.com/stefanobartoletti/eslint-config/commit/2c2061b))
+- Update lockfile ([b87ed59](https://github.com/stefanobartoletti/eslint-config/commit/b87ed59))
+
+#### ⚠️ Breaking Changes
+
+- **deps:** ⚠️  Update eslint to v10, @antfu/eslint-config to v9 ([2c2061b](https://github.com/stefanobartoletti/eslint-config/commit/2c2061b))
+
+### ❤️ Contributors
+
+- Stefano Bartoletti ([@stefanobartoletti](https://github.com/stefanobartoletti))
+
 ## v4.0.6
 
 [compare changes](https://github.com/stefanobartoletti/eslint-config/compare/v4.0.5...v4.0.6)
