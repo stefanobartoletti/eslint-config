@@ -9,7 +9,7 @@
 
 My ESlint configuration, based on `@antfu/eslint-config` with personal customizations. Nicely integrates with Nuxt and provides optional rules for Tailwind.
 
-[Release Notes](/CHANGELOG.md)
+[Release Notes](https://github.com/stefanobartoletti/eslint-config/releases)
 
 ---
 
@@ -196,14 +196,17 @@ For more settings, check the "VS Code support" section in [antfu/eslint-config](
 © 2023-present [Stefano Bartoletti](https://www.stefanobartoletti.it)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@stefanobartoletti/eslint-config/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-src]: https://img.shields.io/npm/v/%40stefanobartoletti%2Feslint-config?style=flat&labelColor=18181B&color=28CF8D
 [npm-version-href]: https://npmjs.com/package/@stefanobartoletti/eslint-config
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@stefanobartoletti/eslint-config.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-src]: https://img.shields.io/npm/dm/%40stefanobartoletti%2Feslint-config?style=flat&labelColor=18181B&color=28CF8D
 [npm-downloads-href]: https://npmjs.com/package/@stefanobartoletti/eslint-config
 
-[license-src]: https://img.shields.io/npm/l/@stefanobartoletti/eslint-config.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-src]: https://img.shields.io/npm/l/%40stefanobartoletti%2Feslint-config?style=flat&labelColor=18181B&color=28CF8D
 [license-href]: https://npmjs.com/package/@stefanobartoletti/eslint-config
 
 [antfu-src]: https://antfu.me/badge-code-style.svg
 [antfu-href]: https://github.com/antfu/eslint-config
+
+
+
