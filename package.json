@@ -24,7 +24,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "config-inspector",
-    "release": "./.github/release.sh",
+    "release": "pnpm test && bumpp -r --all",
     "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
@@ -45,6 +45,7 @@
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
     "@eslint/config-inspector": "^3.0.3",
+    "bumpp": "^11.1.0",
     "changelogen": "^0.6.2",
     "eslint": "^10.4.0",
     "eslint-plugin-tailwindcss": "^3.18.3",
