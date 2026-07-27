@@ -128,7 +128,7 @@ export default stefanobartoletti(
 ```
 
 > [!WARNING]
-> Starting from v6.0.0, only Tailwind v4 is supported! 
+> Starting from `v6.x`, only Tailwind v4 is supported! 
 > Also, you no longer need to manually install `eslint-plugin-tailwindcss` as a dev dependecy.
 
 #### Integrationg with Nuxt
