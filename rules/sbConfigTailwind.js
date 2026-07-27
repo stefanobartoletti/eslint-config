@@ -1,14 +1,15 @@
-/* eslint-disable import/no-mutable-exports */
-/* eslint-disable antfu/no-top-level-await */
+import tailwindcss from 'eslint-plugin-tailwindcss'
 
-let sbConfigTailwind = {}
-
-try {
-  const tailwind = await import('eslint-plugin-tailwindcss')
-  sbConfigTailwind = tailwind.default.configs['flat/recommended']
-}
-catch {
-  console.warn('eslint-plugin-tailwindcss not found, skipping Tailwind rules')
-}
+const sbConfigTailwind = (settings = {}) => [
+  {
+    ...tailwindcss.configs.recommended,
+    name: 'stefanobartoletti/tailwind',
+    settings: {
+      tailwindcss: {
+        ...settings,
+      },
+    },
+  },
+]
 
 export default sbConfigTailwind

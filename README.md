@@ -101,7 +101,7 @@ import { stefanobartoletti, tailwind, vue } from '@stefanobartoletti/eslint-conf
 export default stefanobartoletti(
   {}, // @antfu/eslint-config options, must always be present as first item even if empty
   vue,
-  tailwind,
+  tailwind(),
   {
     // ESlint Flat config rule object
   },
@@ -111,12 +111,29 @@ export default stefanobartoletti(
 > [!WARNING]
 > Starting from `v2.x`, all my custom Vue-related rules must be explicitly imported with the `vue` key. They were previously included in the base configuration, and automatically active even when not really needed or when the Vue plugins were not active.
 
+##### Configuring Tailwind
+
+`tailwind` is a function, since [`eslint-plugin-tailwindcss` v4](https://github.com/francoismassart/eslint-plugin-tailwindcss) targets Tailwind CSS v4 and requires a [shared `settings.tailwindcss`](https://github.com/francoismassart/eslint-plugin-tailwindcss#settings) object, most notably `cssConfigPath`, pointing to your project's main Tailwind CSS file. Any option accepted by the plugin can be passed through:
+
+```js
+// eslint.config.js
+import { stefanobartoletti, tailwind } from '@stefanobartoletti/eslint-config'
+
+export default stefanobartoletti(
+  {},
+  tailwind({
+    cssConfigPath: './src/styles/tailwind.css',
+  }),
+)
+```
+
 > [!WARNING]
-> If you want to use tailwind configuration (currently only for Tailwind 3), you must explicitly instal the required plugin with `pnpm i -D eslint-plugin-tailwindcss`
+> Starting from v6.0.0, only Tailwind v4 is supported! 
+> Also, you no longer need to manually install `eslint-plugin-tailwindcss` as a dev dependecy.
 
 #### Integrationg with Nuxt
 
-> [!INFO]
+> [!NOTE]
 > This package used to provide custom rules to be used with Nuxt, but the latest versions of the official Nuxt configs effectively made them redundand and unnecessary.
 >
 > Starting from `v3.x`, Nuxt rules were removed from this package, the recommended way to use this config is to directly integrate it with the Nuxt module.
@@ -155,7 +172,7 @@ export default withNuxt(
     stefanobartoletti(
       {}, // Antfu Options, required
       vue, // Optional, but recommended to follow this config style preferences
-      tailwind, // Optional, depending on the project (you need to explkcitly install `eslint-plugin-tailwindcss`)
+      tailwind(), // Optional, depending on the project
     ),
   )
 ```
