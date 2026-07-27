@@ -24,7 +24,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "config-inspector",
-    "release": "bumpp -r --all",
+    "release": "pnpm lint && bumpp -r --all",
     "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
