@@ -13,6 +13,9 @@ const sbConfigTailwind = (settings = {}) => [
         ...settings,
       },
     },
+    rules: {
+      'tailwindcss/no-custom-classname': 'off',
+    },
   },
 ]
 
