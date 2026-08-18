@@ -36,6 +36,7 @@ My own customizations and preferences:
 - (Vue - *Optional*) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
 - (Vue - *Optional*) Set block order to `<template>`, `<script>`, `<style>`
 - (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (imported directly from `eslint-plugin-tailwindcss`)
+- (Vue - *Optional*) Accessibility (a11y) linting via [`eslint-plugin-vuejs-accessibility`](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) — the dependency ships with this package, so no separate install is needed, just enable the option
 - ... and some other minor tweaks
 
 ## 🛠️ Setup
@@ -130,6 +131,37 @@ export default stefanobartoletti(
 > [!WARNING]
 > Starting from `v6.x`, only Tailwind v4 is supported! 
 > Also, you no longer need to manually install `eslint-plugin-tailwindcss` as a dev dependecy.
+
+##### Vue accessibility (a11y) linting
+
+This package ships [`eslint-plugin-vuejs-accessibility`](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) as a dependency, so it's always available — no separate install needed. It stays disabled by default though, same as in `@antfu/eslint-config` itself, since enabling it can surface real findings on existing markup rather than being a transparent update. Turn it on via `@antfu/eslint-config`'s own `vue.a11y` option, passed in the first argument of `stefanobartoletti()`:
+
+```js
+// eslint.config.js
+import { stefanobartoletti, vue } from '@stefanobartoletti/eslint-config'
+
+export default stefanobartoletti(
+  {
+    vue: { a11y: true },
+  },
+  vue,
+)
+```
+
+> [!TIP]
+> The plugin's default `label-has-for` rule requires a label to be *both* nested around its control *and* reference it via `for`/`id` — valid HTML only needs one or the other. If that's too strict for your markup, relax it per project by appending an override:
+> ```js
+> export default stefanobartoletti(
+>   { vue: { a11y: true } },
+>   vue,
+>   {
+>     files: ['**/*.vue'],
+>     rules: {
+>       'vue-a11y/label-has-for': ['error', { required: { some: ['nesting', 'id'] } }],
+>     },
+>   },
+> )
+> ```
 
 #### Integrationg with Nuxt
 
