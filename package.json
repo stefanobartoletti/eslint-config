@@ -2,7 +2,7 @@
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
   "version": "6.1.1",
-  "packageManager": "pnpm@11.23.0",
+  "packageManager": "pnpm@11.24.0",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "prepare": "husky"
   },
   "peerDependencies": {
-    "eslint": ">=10.9.0"
+    "eslint": ">=10.9.1"
   },
   "dependencies": {
     "@antfu/eslint-config": "^9.3.0",
@@ -41,9 +41,9 @@
     "@commitlint/cli": "^21.2.2",
     "@commitlint/config-conventional": "^21.2.2",
     "@eslint/config-inspector": "^3.3.0",
-    "bumpp": "^12.2.1",
+    "bumpp": "^12.2.2",
     "changelogen": "^0.6.2",
-    "eslint": "^10.9.0",
+    "eslint": "^10.9.1",
     "husky": "^9.1.7"
   }
 }
