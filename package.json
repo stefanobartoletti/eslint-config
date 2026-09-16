@@ -24,7 +24,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "preview": "config-inspector",
-    "release": "pnpm lint && bumpp -r --all",
+    "release": "pnpm lint && bumpp conventional -r --all",
     "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
@@ -46,7 +46,6 @@
     "bumpp": "^12.3.0",
     "changelogen": "^0.6.2",
     "eslint": "^10.10.0",
-
     "husky": "^9.1.7"
   }
 }
