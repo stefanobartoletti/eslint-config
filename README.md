@@ -36,7 +36,7 @@ My own customizations and preferences:
 - (Vue - *Optional*) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
 - (Vue - *Optional*) Set block order to `<template>`, `<script>`, `<style>`
 - (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (imported directly from `eslint-plugin-tailwindcss`)
-- (Vue - *Optional*) Accessibility (a11y) linting via [`eslint-plugin-vuejs-accessibility`](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) — the dependency ships with this package, so no separate install is needed, just enable the option
+- (Vue - *Optional*) Accessibility (a11y) linting via [`eslint-plugin-vuejs-accessibility`](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility), the dependency ships with this package, so no separate install is needed, just enable the option
 - ... and some other minor tweaks
 
 ## 🛠️ Setup
@@ -134,7 +134,7 @@ export default stefanobartoletti(
 
 ##### Vue accessibility (a11y) linting
 
-This package ships [`eslint-plugin-vuejs-accessibility`](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) as a dependency, so it's always available — no separate install needed. It stays disabled by default though, same as in `@antfu/eslint-config` itself, since enabling it can surface real findings on existing markup rather than being a transparent update. Turn it on via `@antfu/eslint-config`'s own `vue.a11y` option, passed in the first argument of `stefanobartoletti()`:
+This package ships [`eslint-plugin-vuejs-accessibility`](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) as a dependency, so it's always available, no separate install needed. It stays disabled by default though, same as in `@antfu/eslint-config` itself, since enabling it can surface real findings on existing markup rather than being a transparent update. Turn it on via `@antfu/eslint-config`'s own `vue.a11y` option, passed in the first argument of `stefanobartoletti()`:
 
 ```js
 // eslint.config.js
@@ -149,7 +149,7 @@ export default stefanobartoletti(
 ```
 
 > [!TIP]
-> The plugin's default `label-has-for` rule requires a label to be *both* nested around its control *and* reference it via `for`/`id` — valid HTML only needs one or the other. If that's too strict for your markup, relax it per project by appending an override:
+> The plugin's default `label-has-for` rule requires a label to be *both* nested around its control *and* reference it via `for`/`id`, valid HTML only needs one or the other. If that's too strict for your markup, relax it per project by appending an override:
 > ```js
 > export default stefanobartoletti(
 >   { vue: { a11y: true } },
