@@ -33,6 +33,7 @@ My own customizations and preferences:
 
 - (General) Force use of curly braces on control statements
 - (General) Disable `antfu/top-level-function` to allow arrow syntax on top level functions
+- (pnpm) Only enforce `shellEmulator: true` in `pnpm-workspace.yaml`, instead of also requiring `trustPolicy: no-downgrade` and `minimumReleaseAgeExcludePrune: true`
 - (Vue - *Optional*) Set maximum allowed attributes per line on HTML elements (`10` for singleline, `1` for multiline)
 - (Vue - *Optional*) Set block order to `<template>`, `<script>`, `<style>`
 - (Tailwind - *Optional*) Enforce best practices and consistency for Tailwind, mainly class names ordering (imported directly from `eslint-plugin-tailwindcss`)
