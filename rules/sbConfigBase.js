@@ -12,8 +12,16 @@ const sbConfigBase = [
     name: 'stefanobartoletti/pnpm-workspace',
     files: ['pnpm-workspace.yaml'],
     rules: {
-      // Only keep `shellEmulator` from @antfu/eslint-config's enforced settings
-      'pnpm/yaml-enforce-settings': ['error', { settings: { shellEmulator: true } }],
+      // Same as @antfu/eslint-config, plus `trustPolicyIgnoreAfter` (30 days) so old versions
+      // published without provenance (e.g. backports) don't trigger false trust downgrades
+      'pnpm/yaml-enforce-settings': ['error', {
+        settings: {
+          minimumReleaseAgeExcludePrune: true,
+          shellEmulator: true,
+          trustPolicy: 'no-downgrade',
+          trustPolicyIgnoreAfter: 43200,
+        },
+      }],
     },
   },
 ]
