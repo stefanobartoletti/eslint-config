@@ -153,12 +153,21 @@ export default stefanobartoletti(
 > The plugin's default `label-has-for` rule requires a label to be *both* nested around its control *and* reference it via `for`/`id`, valid HTML only needs one or the other. If that's too strict for your markup, relax it per project by appending an override:
 > ```js
 > export default stefanobartoletti(
->   { vue: { a11y: true } },
+>   {
+>     vue: { a11y: true }
+>   },
 >   vue,
 >   {
 >     files: ['**/*.vue'],
 >     rules: {
->       'vue-a11y/label-has-for': ['error', { required: { some: ['nesting', 'id'] } }],
+>       'vue-a11y/label-has-for': [
+>         'error',
+>         {
+>           required: {
+>             some: ['nesting', 'id']
+>           }
+>         }
+>       ],
 >     },
 >   },
 > )
