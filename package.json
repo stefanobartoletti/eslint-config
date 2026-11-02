@@ -1,7 +1,7 @@
 {
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
-  "version": "6.3.1",
+  "version": "6.3.2",
   "packageManager": "pnpm@12.16.1",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
