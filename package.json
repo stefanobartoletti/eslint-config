@@ -2,7 +2,7 @@
   "name": "@stefanobartoletti/eslint-config",
   "type": "module",
   "version": "6.3.2",
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@12.18.0",
   "description": "",
   "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "prepare": "husky"
   },
   "peerDependencies": {
-    "eslint": ">=10.13.0"
+    "eslint": ">=10.14.0"
   },
   "dependencies": {
     "@antfu/eslint-config": "^10.0.0",
